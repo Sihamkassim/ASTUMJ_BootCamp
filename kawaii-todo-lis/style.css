@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e89da4;
+  font-family: "Reem Kufi Ink", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  padding: 40px 10px;
+}
+
+.ctr {
+  background-color: #ffd4d4;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  border-radius: 30px;
+  max-width: 550px;
+  width: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  color: #a52a2a;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Carter One", cursive;
+}
+
+.input-g {
+  display: flex;
+  align-items: center;
+  background-color: #fddddd;
+  border-radius: 50px;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+}
+
+.input-g input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.input-g .add-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.input-g .add-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.status {
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  background-color: #fddddd;
+  border-radius: 15px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task span {
+  font-size: 16px;
+  color: #333;
+}
+
+.task .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.task .buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.task .buttons img {
+  width: 20px;
+  height: 20px;
+}
+
+.bunny {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.bunny img {
+  width: 100px;
+  height: auto;
+  opacity: 60%;
+}
+
+/* Responsive */
+@media (max-width: 552px) {
+  .ctr {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .input-g input {
+    font-size: 14px;
+  }
+
+  .task span {
+    font-size: 14px;
+  }
+  .bunny img {
+    width: 80px;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .ctr {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .input-g input {
+    font-size: 12px;
+  }
+
+  .task span {
+    font-size: 12px;
+  }
+  
+  .bunny img {
+    width: 60px;
+    height: auto;
+  }
+}
+
