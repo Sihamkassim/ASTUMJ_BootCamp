@@ -24,12 +24,6 @@ section h2 {
   padding: 3rem 4rem;
 }
 
-/* TEMPORARY - Remove after adding all the styles */
-/* img {
-  display: block;
-  width: 100px;
-  height: 100px;
-} */
 
 /* 1. Flex - Header Navigation */
 .header {
@@ -245,7 +239,7 @@ section h2 {
   height: 50%;
 }
 
-/* 4b. Flex/Grid 2D - Hot News - Grid Version */
+
 .hot-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
