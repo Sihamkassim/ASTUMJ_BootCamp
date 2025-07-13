@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #ff8a70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 25px 25px 25px 25px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff5e3a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px 25px 25px 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-text {
+  flex: 1;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: #ff5e3a;
+  
+}
+
+.delete-btn {
+  margin-left: 15px;
+  cursor: pointer;
+  color: #999;
+  font-weight: bold;
+  text-decoration: none;
+}
