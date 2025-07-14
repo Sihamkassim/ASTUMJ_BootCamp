@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+button, input {
+  padding: 8px;
+  margin: 5px;
+}
+li {
+  margin: 5px 0;
+}
+.highlighted {
+  background-color: yellow;
+}
